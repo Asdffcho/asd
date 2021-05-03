@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventsislav Stoev QA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project/css/styles.css">
+  </head>
+  <body>
+    <main>
+      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <header>
+        <div class="content-wrap">
+          <h1>Ventsislav Stoev</h1>
+          <h2>Quality Assurance</h2>
+
+          <p>Add your profile copy here. Add more paragraphs or links as needed. Here is some dummy text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit ante.</p>
+          <p>Add another paragraph if needed.</p>
+        </div>
+      </header>
+
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class="projects">
+        <div class="content-wrap divider">
+        <h2>Featured Projects</h2>
+        <p>View selected projects below. More infor mation can be found at <a href="http://seewines.com">seewines.com</a>.</p>
+
+        <!-- Copy the whole <section> block to add more projects. -->
+        <section class="project-item">
+          <img src="project/images/seewines_box.jpg" alt="seewines">
+          <h3>Seewines</h3>
+          <p>Seewines is a wine and spirits store. We have our own import of quality, different wines, with the help of which we acquaint
+           our customers with the richness of wine production in the world and offer a new way of wine shopping - online and through a monthly
+           wine subscription..</p>
+           <a class="btn" href="http://seewines.com" target="_blank">View project</a>
+        </section>
+
+          <section class="project-item">
+            <img src="project/images/newpay-logo_final.png" alt="newpay">
+          <h3>NewPay</h3>
+              <p>NewPay is an innovative, fully integrated platform that recreates an online payment presentation for those you know. The platform
+                aims to meet consumer needs and enable the purchase of goods now with payment after the end.</p>
+          <a class="btn" href="http://NewPay.bg" target="_blank">View project</a>
+        </section>
+
+        <!-- End of Project block. -->
+        </div>
+      </section>
+
+      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <section class="work-experience">
+        <div class="content-wrap item-details divider">
+        <h2>Work Experience</h2>
+        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+
+        <!-- Copy this whole <section> block to add more jobs. -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Quality Assurance Tester</h3>
+            <p>Sirius Software</p>
+            <p>February 2021 - Present</p>
+          </div>
+        <div class="job-summary">
+          <p>Job summary goes here. Add as many paragraphs as you need.</p>
+          <p>Optional list:</p>
+          <ul>
+            <li>Delete this list if you don't need it.</li>
+            <li>Created...</li>
+            <li>Lead...</li>
+            <li>Responsible for...</li>
+          </ul>
+        </div>
+        </section>
+        <!-- End of Job block. -->
+        </div>
+      </section>
+
+      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <section class="EDUCATION">
+        <style>
+          body {
+                background-image: url('project/images/joanna-kosinska-unsplash.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: top-right;
+              }
+            </style>
+        <div class="content-wrap item-details">
+        <h2>Education</h2>
+
+        <!-- Copy this whole <section> block to add more schools. -->
+        <section>
+          <h3>School name - City</h3>
+          <p>Designation received or program name, year attended</p>
+          <p>Summary or accomplishments.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit antex </p>
+        </section>
+        <!-- End of School block. -->
+        </div>
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer class="Contact info">
+        <div class="content-wrap">
+        <h2>Let's Keep in Touch!</h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <ul class="contact-list">
+          <li><a href="mailto:email@example.com">ventsistoev7@gmail.com</a></li>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+          <li><a href="#" target="_blank">Facebook</a></li>
+        </ul>
+      </div>
+      </footer>
+    </main>
+  </body>
+</html>
